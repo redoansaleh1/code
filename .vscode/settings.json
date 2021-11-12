@@ -5,7 +5,8 @@
         "vector": "cpp",
         "ostream": "cpp",
         "string": "c",
-        "stdc++.h": "c"
+        "stdc++.h": "c",
+        "iosfwd": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }

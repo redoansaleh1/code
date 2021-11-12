@@ -18,31 +18,31 @@ vector<double> determineNetRunRate(int team1Run, double team1OverPlayed, int tea
 int main()
 {
 
-    string nameOfTeam1;
-    cout << "Name of first Team: ";
-    cin >> nameOfTeam1;
-    int runScoredByTeam1;
-    cout << "Run scored by first team: ";
-    cin >> runScoredByTeam1;
-    double overPlayedByTeam1 = 20;
-    cout << "Over played by first team: ";
-    cin >> overPlayedByTeam1;
-    cout << endl;
+    // string nameOfTeam1;
+    // cout << "Name of first Team: ";
+    // cin >> nameOfTeam1;
+    // int runScoredByTeam1;
+    // cout << "Run scored by first team: ";
+    // cin >> runScoredByTeam1;
+    // double overPlayedByTeam1;
+    // cout << "Over played by first team: ";
+    // cin >> overPlayedByTeam1;
+    // cout << endl;
 
-    string nameOfTeam2;
-    cout << "Name of second Team: ";
-    cin >> nameOfTeam2;
-    int runScoredByTeam2;
-    cout << "Run scored by second team: ";
-    cin >> runScoredByTeam2;
-    double overPlayedByTeam2 = 20;
-    cout << "Over played by second team: ";
-    cin >> overPlayedByTeam2;
-    cout << endl;
+    // string nameOfTeam2;
+    // cout << "Name of second Team: ";
+    // cin >> nameOfTeam2;
+    // int runScoredByTeam2;
+    // cout << "Run scored by second team: ";
+    // cin >> runScoredByTeam2;
+    // double overPlayedByTeam2;
+    // cout << "Over played by second team: ";
+    // cin >> overPlayedByTeam2;
+    // cout << endl;
 
-    vector<double> netRunRateOftwoTeams = determineNetRunRate(runScoredByTeam1, overPlayedByTeam1, runScoredByTeam2, overPlayedByTeam2);
-    cout << "Net run rate of " << nameOfTeam1 << " " << netRunRateOftwoTeams[0] << endl;
-    cout << "Net run rate of " << nameOfTeam2 << " " << netRunRateOftwoTeams[1] << endl;
+    // vector<double> netRunRateOftwoTeams = determineNetRunRate(runScoredByTeam1, overPlayedByTeam1, runScoredByTeam2, overPlayedByTeam2);
+    // cout << "Net run rate of " << nameOfTeam1 << " " << netRunRateOftwoTeams[0] << endl;
+    // cout << "Net run rate of " << nameOfTeam2 << " " << netRunRateOftwoTeams[1] << endl;
 
     return 0;
 }
